@@ -66,15 +66,17 @@ A Federated Learning framework is implemented with simulated clients, demonstrat
 To better understand the results, here are some key visualizations used in this project:
 
 1. **Confusion Matrix without additional advanced features**:  
-   ![Confusion Matrix](figures/conf_mat.png)  
+   ![Confusion Matrix](Figures/conf_mat.png)  
    This matrix helps in understanding which modulation types are most often misclassified.
    **After Feature Engineering**: 
-   ![Confusion Matrix with FE](figures/improvised onf matrix.png)  
+   ![Confusion Matrix with FE](Figures/improvised onf matrix.png)  
    This matrix helps in understanding which modulation types are most often misclassified.
-3. **SNR vs Accuracy Plot**:  
-   ![SNR vs Accuracy](figures/snr_vs_accuracy.png)  
-   This plot shows how the model accuracy changes across different SNR levels, highlighting areas of improvement.
-
+3. **SNR vs Accuracy Plot without additional advanced features**:  
+   ![SNR vs Accuracy](Figures/raw snr plot.png)  
+   This plot shows how the model accuracy changes across different SNR levels, highlighting potential areas of improvement.
+  **SNR vs Accuracy Plot without additional advanced features**:  
+   ![SNR vs Accuracy](Figures/snr plot.png)  
+   This plot shows the improvement after feature engineering.
 4. **Constellation Diagrams**:  
    ![Constellation Diagram](figures/constellation_diagram.png)  
    Visual representation of constellation points for QAM16 and QAM64, which helps in differentiating complex modulation types.
