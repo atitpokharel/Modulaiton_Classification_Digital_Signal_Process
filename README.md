@@ -89,6 +89,9 @@ To better understand the results, here are some key visualizations used in this 
 7. **Power Spectrum Density**: 
    ![PSD](Figures/psd.png)
    Power Spectrum Density for a BPSK signal.
+
+7. **Federated Learning Training Performance**: 
+   ![FL](Figures/rml_fl.png)
 ---
 
 ## **Author**
