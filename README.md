@@ -7,6 +7,7 @@ This project demonstrates the use of **Convolutional Neural Networks (CNN)** for
 
 ## **Key Features**
 - **Dataset**: RadioML dataset with in-phase (I) and quadrature (Q) signals across various modulation types and SNR levels.
+ ![Signal Samples](Figures/iqplot.png)  
 - **Feature Engineering**:
   - Fast Fourier Transform (FFT) features for spectral information.
   - Derivative and integral features for signal dynamics.
@@ -104,4 +105,4 @@ Email: [ap1284@uah.edu](mailto:ap1284@uah.edu)
 ---
 
 ## **Acknowledgments**
-Special thanks to the Department of Electrical and Computer Engineering at UAH for resources and support.
+Special thanks to the Department of Electrical and Computer Engineering at UAH and Dr. Dinh Nguyen for resources and support.
