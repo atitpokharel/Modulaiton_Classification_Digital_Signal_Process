@@ -7,6 +7,7 @@ This project demonstrates the use of **Convolutional Neural Networks (CNN)** for
 
 ## **Key Features**
 - **Dataset**: RadioML dataset with in-phase (I) and quadrature (Q) signals across various modulation types and SNR levels.
+ ![Signal Samples](Figures/iqplot.png)  
 - **Feature Engineering**:
   - Fast Fourier Transform (FFT) features for spectral information.
   - Derivative and integral features for signal dynamics.
@@ -69,24 +70,25 @@ To better understand the results, here are some key visualizations used in this 
    ![Confusion Matrix](Figures/conf_mat.png)  
    This matrix helps in understanding which modulation types are most often misclassified.
    **After Feature Engineering**: 
-   ![Confusion Matrix with FE](Figures/improvised onf matrix.png)  
+   ![Confusion Matrix with FE](Figures/improvised_conf.png)  
    This matrix helps in understanding which modulation types are most often misclassified.
 3. **SNR vs Accuracy Plot without additional advanced features**:  
-   ![SNR vs Accuracy](Figures/raw snr plot.png)  
+   ![SNR vs Accuracy](Figures/raw_snr.png)  
    This plot shows how the model accuracy changes across different SNR levels, highlighting potential areas of improvement.
   **SNR vs Accuracy Plot without additional advanced features**:  
-   ![SNR vs Accuracy](Figures/snr plot.png)  
+   ![SNR vs Accuracy](Figures/snr.png)  
    This plot shows the improvement after feature engineering.
 4. **Constellation Diagrams**:  
-   ![Constellation Diagram](figures/constellation_diagram.png)  
+   ![Constellation Diagram](Figures/cons.png)  
    Visual representation of constellation points for QAM16 and QAM64, which helps in differentiating complex modulation types.
 
 5. **Instantaneous Features**:  
-   ![Instantaneous Amplitude and Frequency](figures/instantaneous_features.png)  
-   Instantaneous amplitude and frequency diagrams for modulation types such as AM-DSB and WBFM.
-
-To add these figures, ensure they are placed in the `figures/` directory within your project.
-
+   ![Instantaneous Frequency](Figures/instfreq.png)  
+   Instantaneous frequency diagrams for modulation type AM-DSB.
+   
+7. **Power Spectrum Density**: 
+   ![PSD](Figures/psd.png)
+   Power Spectrum Density for a BPSK signal.
 ---
 
 ## **Author**
@@ -103,4 +105,4 @@ Email: [ap1284@uah.edu](mailto:ap1284@uah.edu)
 ---
 
 ## **Acknowledgments**
-Special thanks to the Department of Electrical and Computer Engineering at UAH for resources and support.
+Special thanks to the Department of Electrical and Computer Engineering at UAH and Dr. Dinh Nguyen for resources and support.
